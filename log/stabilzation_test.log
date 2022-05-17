@@ -1,0 +1,27 @@
+Running Inference: 1/1
+------Load Pretrined Model--------
+./checkpoint\stabilzation\stabilzation_last.checkpoint
+-----------Load Dataset----------
+./video\s_114_outdoor_running_trail_daytime
+frame: (511, 7)    gyro: (3746, 5)    ois: (3916, 3)    flo_path: 470    flo_shape: (270, 480, 2)    
+Fininsh Load data
+Step: 100/470
+Step: 200/470
+Step: 300/470
+Step: 400/470
+
+Loss: follow, angle, smooth, c2_smooth, undefine, optical
+[8.2738837e-03 1.8485474e-03 1.2012327e-05 1.0855584e-05 1.0849403e-03
+ 8.4951178e-05] 
+
+(471, 5)
+Time_used: 2.0314 minutes
+------Start Warping Video--------
+------Start Visual Result--------
+(1080, 1920, 3)
+Video length:  470
+Frame: 0/470
+Frame: 100/470
+Frame: 200/470
+Frame: 300/470
+Frame: 400/470
